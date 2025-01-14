@@ -1,24 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import { Greet,Welcome,Props,Statempx,JSXfunction } from './Components';
 
 function App() {
+  const data = {fname : 'Harish' , lname: 'Chandra' , age:'25',city :'Bengalore'};
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Greet/>
+      <Welcome/>
+      <Statempx />
+
+      <Props dataattr = {data} />
+      <JSXfunction />
+
+    </>
   );
 }
 
