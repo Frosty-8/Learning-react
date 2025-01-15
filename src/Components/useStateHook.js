@@ -1,5 +1,14 @@
 /* 
     useState hook allows us to track state in a function component
+
+    Purpose of useState
+    useState simplifies state management in functional components by providing:
+    A state variable to store the current value.
+    A setter function to update the state.
+
+    The primary purpose of the useState hook is to enable functional components to manage and update 
+    stateful data. Prior to hooks, only class components in React could handle state. With useState, 
+    functional components can maintain their own state, making them just as powerful and easier to use.
 */
 
 import {useState} from 'react'

@@ -9,3 +9,5 @@ export {StudentContextComponent} from './studentcontexthook';
 export {StudentHome} from './studentHome';
 export {UseStateDemo} from './useStateHook';
 export {SideEffect} from './useEffecthook';
+export {Formname} from './formname';
+export {SignupForm} from './formikName';
