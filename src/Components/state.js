@@ -1,3 +1,5 @@
+// we use this.state to initialize the state and to change the state we this.setState to change its values or anything
+
 import { Component } from "react";
 
 export class Statempx extends Component{
@@ -30,6 +32,7 @@ export class Statempx extends Component{
                 }
             }/>
             </>
+
         );
     }
 }

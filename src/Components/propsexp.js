@@ -1,3 +1,5 @@
+// properties that we pass from parent to child
+
 export function Props(props){
     return(
         <>
